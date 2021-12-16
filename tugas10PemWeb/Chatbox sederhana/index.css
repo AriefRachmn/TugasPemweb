@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+    font-size: 38px;
+    font-family: Montserrat ExtraBold;
+}
+
+.chatbox{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(233, 57, 57);
+}
+
+.chatmsg{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}
+
+.sendbtn{
+  height: 60px;
+  width: 60px;
+
+}

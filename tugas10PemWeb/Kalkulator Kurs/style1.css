@@ -1,0 +1,28 @@
+.legend{
+    text-align: center;
+    font-family: Montserrat ExtraBold;
+    font-size:xx-large
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px;
+    align-items: center;
+    align-content: center;
+}
+table td{
+    text-align: center;
+    border: 1px solid;
+    font-style: ;
+    background-color: rgb(0, 68, 255);
+    align-items: center;
+    align-content: center;
+}
+.currency{
+    align-items: center;
+    align-content: center;
+    margin-left: 330px;
+    
+}
+#td1{
+    font-family: Bahnschrift Condensed;
+}

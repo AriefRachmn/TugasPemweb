@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Kurs</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="currencyrupiah.js"></script>
+</head>
+<body>
+    <fieldset>
+      <legend class="legend">Kalkulator Kurs Sederhana</legend>
+        <table class="currency">
+          <thead>
+            <tr id="td1">
+              <td>Input Uang</td>
+              <td>Valas</td>
+              <td>Nilai Rupiah</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="text" placeholder="Input Nilai Uang" id="nilai"></td>
+              <td>
+                <select id="kurs_uang" onclick="setPrice(this.value)">
+                  <option value="kosong">Pilih Mata Uang Negara</option>
+                  <option value="us_dollar">Dollar US</option>
+                  <option value="sg_dollar">Dollar Singapore</option>
+                  <option value="malay_ringgit">Ringgit Malaysia</option>
+                  <option value="jpn_yen">Yen Jepang</option>
+                  <option value="europe_euro">Euro</option>
+                  <option value="arab_riyal">Riyal Arab Saudi</option>
+                </select>
+              </td>
+              <td><input type="text" id="hasil"></td>
+            </tr>
+          </tbody>
+      </table>
+  </fieldset>
+</body>
+</html>
