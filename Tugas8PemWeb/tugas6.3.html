@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 6.3</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(202, 137, 61);
+            padding: 20px;
+            font-family: InsaniBurger;
+        }
+
+        .flex-container>div {
+            color: white;
+            margin: 10px;
+            text-align: start;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            height: 500px;
+        }
+
+        .content>div {
+            margin: 10px;
+
+        }
+
+        .box1 {
+            flex: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 77, 129);
+            font-size:InsaniBurger;color: black;
+            ;
+        }
+
+        .box2 {
+            flex: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: rgb(141, 0, 47);
+            font-size:InsaniBurger;color: black;
+        }
+
+        .item2 {
+            display: flex;
+            justify-content: center;
+            font-size:InsaniBurger;color: black;
+        }
+
+        .item2>div {
+            width: 30%;
+            margin: 10px 10px 20px;
+            line-height: 200px;
+            background-color: gainsboro;
+            font-size:InsaniBurger;color: black;
+        }
+    </style>
+</head>
+
+<body style="padding: 50px; box-sizing: border-box;background-color: black;">
+    
+    <h1 style="color: blanchedalmond;font-family: MADE TOMMY Outline;justify-content: center;text-align: center;font-size: 50px;">Tugas 6.3</h1>
+
+    <div class="flex-container">
+        <div class="header" style="background-color: rgb(0, 101, 168); line-height: 50px; padding: 10px;font-size:InsaniBurger;color: black;">Header</div>
+        <div class="content">
+            <div class="box1">Aside</div>
+
+            <div class="box2" style="text-align: center;">
+
+                <div class="item1">Article</div>
+
+                <div class="item2">
+                    <div class="image1">Image</div>
+                    <div class="image2">Image</div>
+                    <div class="image3">Image</div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer" style="background-color: rgb(19, 165, 0); line-height: 50px; padding: 10px;font-size:InsaniBurger;color: black;">Footer</div>
+    </div>
+</body>
+
+</html>

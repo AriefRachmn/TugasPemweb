@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 6.2</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: #f1f1f1;
+
+        }
+
+        .flex-container>div {
+            color: black;
+            width: 100px;
+            margin: 0;
+            text-align: start;
+            font-size: 30px;
+        }
+
+        .flex-container>div>span {
+            margin: 35px;
+        }
+
+        .flex-container>div>div>span {
+            margin: 35px;
+        }
+    </style>
+</head>
+
+<body style="padding: 50px; box-sizing: border-box;background-color: black;">
+
+    <h1 style="font-family: MADE TOMMY Outline;color: rgb(255, 255, 255);text-align: center;font-size: 50px;">Tugas 6.2</h1>
+
+    <div class="flex-container">
+        <div style="flex-grow: 2; background-color: rgb(251, 231, 43); padding-top: 10px;align-items: center;font-family: InsaniBurger;"><span>Nav</span>
+        </div>
+        <div style="flex-grow: 8; background-color: rgb(77, 235, 57);">
+            <div style="background-color: rgb(60, 41, 233); line-height: 75px;font-family: InsaniBurger;"><span>Header</span></div>
+            <div class="flex-container" style="background-color: pink; line-height: 475px;font-family: InsaniBurger;">
+                <div style="flex-grow: 8; background-color: rgb(253, 76, 215);"><span>Article</span></div>
+                <div style="flex-grow: 2; background-color: rgb(248, 68, 68);"><span>Aside</span></div>
+            </div>
+            <div style="background-color: rgb(243, 183, 72); line-height: 75px;font-family: InsaniBurger;"><span>Footer</span></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
